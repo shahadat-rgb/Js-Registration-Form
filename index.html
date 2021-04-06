@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js form validation</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+ <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+</head>
+<body>
+       <div class="container">
+        <div class="header">
+             <h1>REGISTRATION FORM</h1>
+        </div>
+                   <form class="form"  id="form"> 
+                        <div class="form-control">
+                            <label> <b>UserName</b> </label>
+                            <input id="username"  placeholder="Enter your name" type="text"> 
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error Message</small>
+                        </div>
+
+                        <div class="form-control">
+                            <label> <b>Email</b> </label>
+                            <input id="email"   placeholder="Enter your email"type="email"> 
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error Message</small>
+                        </div>
+
+                        <div class="form-control">
+                            <label> <b>Phone number</b> </label>
+                            <input id="number"  placeholder="Enter your phone number" type="number"> 
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error Message</small>
+                        </div>
+
+                        <div class="form-control">
+                            <label> <b>Password</b> </label>
+                            <input id="password"   placeholder="Enter your Password" type="password"> 
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error Message</small>
+                        </div>
+
+                       <div class="form-control">
+                            <label> <b>Password Check</b> </label>
+                            <input id="cPassword"  placeholder="confirm Password"   type="password"> 
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error Message</small>
+                       </div>
+                            <input type="submit" class="btn" value="Submit">
+                   </form>
+                </div>      
+             </body>
+          
+
+<script src="script.js"></script>
+
+
+</html>
